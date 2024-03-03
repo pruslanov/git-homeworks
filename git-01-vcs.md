@@ -90,7 +90,7 @@ wget -P ~/projects/devops-netology/terraform -O .gitignore https://github.com/gi
 
 ![Создаем и закачиваем файл gitignore](img/hw-git-01-009.png)
 
-18. В файле `README.md` опишите своими словами, какие файлы будут проигнорированы в будущем благодаря добавленному `.gitignore`.
+4. В файле `README.md` опишите своими словами, какие файлы будут проигнорированы в будущем благодаря добавленному `.gitignore`.
 
 ```bash
 # devops-netology
@@ -141,7 +141,7 @@ override.tf.json
 terraform.rc
 ```
 
-4. Закоммитьте все новые и изменённые файлы. Комментарий к коммиту должен быть `Added gitignore`.
+5. Закоммитьте все новые и изменённые файлы. Комментарий к коммиту должен быть `Added gitignore`.
 
 ![Коммит gitignore](img/hw-git-01-010.png)
 
