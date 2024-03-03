@@ -18,13 +18,21 @@
 
 1. Зарегистрируйте аккаунт на [https://github.com/](https://github.com/). Если предпочитаете другое хранилище для репозитория, можно использовать его.
 
-<img src = "img/hw-git-01-001.png">
+Профиль пользователя
 
+<img src = "img/hw-git-01-001.png">
 
 2. Создайте публичный репозиторий, который будете использовать дальше на протяжении всего курса, желательное с названием `devops-netology`.
    Обязательно поставьте галочку `Initialize this repository with a README`. 
-   
-    ![Диалог создания репозитория](img/github-new-repo-1.jpg)
+
+Создание репозитория `devops-netology`
+
+<img src = "img/hw-git-01-002.png">
+
+Репозиторий `devops-netology` создан
+
+<img src = "img/hw-git-01-003.png">
+
     
 3. Создайте [авторизационный токен](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) для клонирования репозитория.
 4. Склонируйте репозиторий, используя протокол HTTPS (`git clone ...`).
