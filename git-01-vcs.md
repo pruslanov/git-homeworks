@@ -201,7 +201,13 @@ git commit -m "Moved and deleted"
 
 Выполните команду `git push`, если Git запросит логин и пароль — введите ваши логин и пароль от GitHub. 
 
+`git push origin main`
+
+![Git push](img/hw-git-01-016.png)
+
 В качестве результата отправьте ссылку на репозиторий. 
+
+[Ссылка на репозиторий](https://github.com/pruslanov/devops-netology)
 
 ----
 
