@@ -39,7 +39,7 @@
 
 `git clone https://github.com/pruslanov/devops-netology.git`
  
-![Клонирование репозитория](img/hw-git-01-003.png)
+![Клонирование репозитория](img/hw-git-01-004.png)
     
 5. Перейдите в каталог с клоном репозитория (`cd devops-netology`).
 6. Произведите первоначальную настройку Git, указав своё настоящее имя, чтобы нам было проще общаться, и email (`git config --global user.name` и `git config --global user.email johndoe@example.com`). 
