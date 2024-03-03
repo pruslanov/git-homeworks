@@ -48,7 +48,7 @@
 ```bash
 git config --global user.name pruslanov
 git config --global user.email petr.ruslanov@gmail.com
-git config --local remote.origin.url git@github.com:pruslanov/git-homeworks.git
+git config --local remote.origin.url git@github.com:pruslanov/devops-netology.git
 git config --list --show-origin
 git status
 ```
