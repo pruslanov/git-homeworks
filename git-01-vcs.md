@@ -43,6 +43,18 @@
     
 5. Перейдите в каталог с клоном репозитория (`cd devops-netology`).
 6. Произведите первоначальную настройку Git, указав своё настоящее имя, чтобы нам было проще общаться, и email (`git config --global user.name` и `git config --global user.email johndoe@example.com`). 
+
+```bash
+git config --global user.name pruslanov
+git config --global user.email petr.ruslanov@gmail.com
+git config --local remote.origin.url git@github.com:pruslanov/git-homeworks.git
+git config --list --show-origin
+git status
+```
+
+![Клонирование репозитория](img/hw-git-01-005.png)
+
+
 7. Выполните команду `git status` и запомните результат.
 8. Отредактируйте файл `README.md` любым удобным способом, тем самым переведя файл в состояние `Modified`.
 9. Ещё раз выполните `git status` и продолжайте проверять вывод этой команды после каждого следующего шага. 
