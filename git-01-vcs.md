@@ -176,6 +176,13 @@ git rm will_be_deleted.txt
 
 5. Закоммитьте результат работы с комментарием `Moved and deleted`.
 
+```bash
+git status
+git commit -m "Moved and deleted"
+```
+
+![Commit Moved and deleted](img/hw-git-01-014.png)
+
 ### Проверка изменения
 
 1. В результате предыдущих шагов в репозитории должно быть как минимум пять коммитов (если вы сделали ещё промежуточные — нет проблем):
