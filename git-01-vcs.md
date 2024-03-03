@@ -36,8 +36,10 @@
     
 3. Создайте [авторизационный токен](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) для клонирования репозитория.
 4. Склонируйте репозиторий, используя протокол HTTPS (`git clone ...`).
+
+`git clone https://github.com/pruslanov/devops-netology.git`
  
-    ![Клонирование репозитория](img/github-clone-repo-https.jpg)
+![Клонирование репозитория](img/hw-git-01-003.png)
     
 5. Перейдите в каталог с клоном репозитория (`cd devops-netology`).
 6. Произведите первоначальную настройку Git, указав своё настоящее имя, чтобы нам было проще общаться, и email (`git config --global user.name` и `git config --global user.email johndoe@example.com`). 
