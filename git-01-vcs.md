@@ -169,6 +169,11 @@ git rm will_be_deleted.txt
 ![Удаление файла will_be_deleted.txt с диска и из репозитория ](img/hw-git-01-012.png)
 
 4. Переименуйте (переместите) файл `will_be_moved.txt` на диске и в репозитории, чтобы он стал называться `has_been_moved.txt`.
+
+`git mv will_be_moved.txt has_been_moved.txt`
+
+![Переименование файла will_be_moved.txt в has_been_moved.txt на диске и в репозитории ](img/hw-git-01-013.png)
+
 5. Закоммитьте результат работы с комментарием `Moved and deleted`.
 
 ### Проверка изменения
