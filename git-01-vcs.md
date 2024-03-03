@@ -160,6 +160,14 @@ git commit -m "Prepare to delete and move"
 
 2. В случае необходимости обратитесь к [официальной документации](https://git-scm.com/book/ru/v2/Основы-Git-Запись-изменений-в-репозиторий) — здесь подробно описано, как выполнить следующие шаги. 
 3. Удалите файл `will_be_deleted.txt` с диска и из репозитория. 
+
+```bash
+rm will_be_deleted.txt
+git rm will_be_deleted.txt
+```
+
+![Удаление файла will_be_deleted.txt с диска и из репозитория ](img/hw-git-01-012.png)
+
 4. Переименуйте (переместите) файл `will_be_moved.txt` на диске и в репозитории, чтобы он стал называться `has_been_moved.txt`.
 5. Закоммитьте результат работы с комментарием `Moved and deleted`.
 
