@@ -73,7 +73,7 @@ git status
 13. Теперь можно сделать коммит `git commit -m 'First commit'`.
 14. И ещё раз посмотреть выводы команд `git status`, `git diff` и `git diff --staged`.
 
-![Первый commit](img/hw-git-01-006.png)
+![Первый commit](img/hw-git-01-007.png)
 
 ### Создание файлов `.gitignore` и второго коммита
 
