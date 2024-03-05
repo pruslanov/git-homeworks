@@ -149,8 +149,18 @@ git push gitlab main
 
 ![PUSH в удаленные репозитории](img/hw-git-02-007.png)
 
-1. Аналогично создайте аннотированный тег `v0.1`.
-1. Перейдите на страницу просмотра тегов в GitHab (и в других репозиториях) и посмотрите, чем отличаются созданные теги. 
+2. Аналогично создайте аннотированный тег `v0.1`.
+
+```bash
+git tag -a v0.1 -m 'Annotated tag creation'
+git tag
+git push origin main
+git push gitlab main
+```
+
+![Создание аннотированного тэга и PUSH в удаленные репозитории](img/hw-git-02-008.png)
+
+3. Перейдите на страницу просмотра тегов в GitHab (и в других репозиториях) и посмотрите, чем отличаются созданные теги. 
     * в GitHub — https://github.com/YOUR_ACCOUNT/devops-netology/releases;
     * в GitLab — https://gitlab.com/YOUR_ACCOUNT/devops-netology/-/tags;
     * в Bitbucket — список тегов расположен в выпадающем меню веток на отдельной вкладке. 
