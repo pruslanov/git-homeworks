@@ -143,8 +143,8 @@ git tag
 PUSH в два удаленных репозитория
 
 ```bash
-git push origin main
-git push gitlab main
+git push origin v0.0
+git push gitlab v0.0
 ```
 
 ![PUSH в удаленные репозитории](img/hw-git-02-007.png)
@@ -154,11 +154,13 @@ git push gitlab main
 ```bash
 git tag -a v0.1 -m 'Annotated tag creation'
 git tag
-git push origin main
-git push gitlab main
+git push origin v0.1
+git push gitlab v0.1
 ```
 
-![Создание аннотированного тэга и PUSH в удаленные репозитории](img/hw-git-02-008.png)
+![Создание аннотированного тэга](img/hw-git-02-008.png)
+
+![PUSH в удаленные репозитории](img/hw-git-02-009.png)
 
 3. Перейдите на страницу просмотра тегов в GitHab (и в других репозиториях) и посмотрите, чем отличаются созданные теги. 
     * в GitHub — https://github.com/YOUR_ACCOUNT/devops-netology/releases;
