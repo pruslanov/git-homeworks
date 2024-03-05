@@ -163,8 +163,16 @@ git push gitlab v0.1
 ![PUSH в удаленные репозитории](img/hw-git-02-009.png)
 
 3. Перейдите на страницу просмотра тегов в GitHab (и в других репозиториях) и посмотрите, чем отличаются созданные теги. 
-    * в GitHub — https://github.com/YOUR_ACCOUNT/devops-netology/releases;
-    * в GitLab — https://gitlab.com/YOUR_ACCOUNT/devops-netology/-/tags;
+    * в GitHub — https://github.com/pruslanov/devops-netology/tags;
+
+    Раздел Tags в удаленном репозитории GitHub 
+
+    ![Раздел Tags в удаленном репозитории GitHub](img/hw-git-02-010.png) 
+
+    Видно, что легковесный тег `v0.0` просто сылается на последний commmit и его дата равна дате commitа.
+    Аннотированный тег `v0.1` продатирован датой создания tag со своим комментарием
+
+    * в GitLab — https://gitlab.com/pruslanov1/devops-netology/-/tags;
     * в Bitbucket — список тегов расположен в выпадающем меню веток на отдельной вкладке. 
 
 ## Задание 3. Ветки 
