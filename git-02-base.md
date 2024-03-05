@@ -208,7 +208,7 @@ git log --grep "Prepare to delete and move"
 
 `git checkout 615ecd6`
 
-![Commit с названием `Prepare to delete and move`](img/hw-git-02-013.png)
+![Commit с названием `Prepare to delete and move`](img/hw-git-02-014.png)
 
 4. Создайте новую ветку `fix`, базируясь на этом коммите `git switch -c fix`.
 5. Отправьте новую ветку в репозиторий на GitHub `git push -u origin fix`.
