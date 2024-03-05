@@ -212,10 +212,45 @@ git log --grep "Prepare to delete and move"
 
 4. Создайте новую ветку `fix`, базируясь на этом коммите `git switch -c fix`.
 5. Отправьте новую ветку в репозиторий на GitHub `git push -u origin fix`.
-6. Посмотрите, как визуально выглядит ваша схема коммитов: https://github.com/YOUR_ACCOUNT/devops-netology/network. 
+
+```bash
+git switch -c fix
+git push -u origin fix
+```
+
+![Switch to brunch](img/hw-git-02-015.png)
+
+6. Посмотрите, как визуально выглядит ваша схема коммитов: https://github.com/pruslanov/devops-netology/network.
+
+![Схема коммитов на GitHub](img/hw-git-02-016.png)
+
 7. Теперь измените содержание файла `README.md`, добавив новую строчку.
-8. Отправьте изменения в репозиторий и посмотрите, как изменится схема на странице https://github.com/YOUR_ACCOUNT/devops-netology/network 
+
+```bash
+git status
+echo "ADD ONE NEW LINE TO THE END" >> README.md
+git status
+git add README.md
+git status
+```
+
+![Изменение файла README.md](img/hw-git-02-017.png)
+
+8. Отправьте изменения в репозиторий и посмотрите, как изменится схема на странице https://github.com/pruslanov/devops-netology/network 
 и как изменится вывод команды `git log`.
+
+```bash
+git commit -m "README.md file add one line to the end"
+git push -u origin fix
+```
+
+![КОммит и PUSH](img/hw-git-02-018.png)
+
+![Схема коммитов на GitHub](img/hw-git-02-019.png)
+
+`git log`
+
+![Схема коммитов на GitHub](img/hw-git-02-020.png)
 
 ## Задание 4. Упрощаем себе жизнь
 
