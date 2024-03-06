@@ -70,6 +70,22 @@ $ git log -S "func globalPluginDirs" --oneline
 8364383c35 Push plugin discovery down into command package
 ```
 
+> Дополнение
+
+Находим в каких файлах объявляется функция `globalPluginDirs`
+
+```bash
+$ git grep "func globalPluginDirs"
+plugins.go:func globalPluginDirs() []string {
+$ 
+```
+
+Историй изменений самой функции в файле `plugins.go` из предыдущего поиска
+
+`git log -L :globalPluginDirs:plugins.go`
+
+
+
 * Кто автор функции `synchronizedWriters`? 
 
 ```bash
